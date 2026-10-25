@@ -22,11 +22,17 @@ I am currently upskilling in open-source quantum ecosystems to understand how qu
 * **Description:** A hybrid model that takes a non-linear classical dataset (SciKit-Learn Moons), projects it into a 2-qubit Hilbert space via **Angle Embedding**, applies a parameterized **Strongly Entangling Layers Ansatz**, and uses a PyTorch Adam optimizer to draw non-linear decision boundaries.
 * **Key Learning Objective:** Understanding parameter initialization in variational circuits and mitigating barren plateaus.
 
+### 2. Quantum Support Vector Machine (QSVM)
+* **File:** 02_quantum_kernel_estimation.ipynb
+* **Frameworks:** PennyLane + Scikit-Learn
+* **Description:** Built a quantum feature map with custom entangling layers, utilizing `qml.adjoint` to calculate the transition amplitudes between data points. Precomputed the Hilbert-space inner products into a Quantum Gram Matrix, which was successfully classified using a classical SVM framework.
+
+
 ---
 
 ## 📈 Next Steps & Implementation Pipeline
 - [ ] Add a visual decision-boundary mapping script using `matplotlib` to track how the quantum ansatz shifts during training epochs.
-- [ ] Implement a **Quantum Support Vector Machine (QSVM)** utilizing quantum kernel estimation.
+- [X] Implement a **Quantum Support Vector Machine (QSVM)** utilizing quantum kernel estimation.
 - [ ] Explore **Tensor Networks** and matrix product states (MPS) for simulating large-scale quantum systems on classical hardware.
 
 ---
