@@ -17,7 +17,7 @@ I am currently upskilling in open-source quantum ecosystems to understand how qu
 ## 🛠️ Repository Contents
 
 ### 1. Variational Quantum Classifier (VQC)
-* **File:** `01_quantum_classifier.py`
+* **File:** `01_quantum_classifier.ipynb`
 * **Frameworks:** PennyLane + PyTorch
 * **Description:** A hybrid model that takes a non-linear classical dataset (SciKit-Learn Moons), projects it into a 2-qubit Hilbert space via **Angle Embedding**, applies a parameterized **Strongly Entangling Layers Ansatz**, and uses a PyTorch Adam optimizer to draw non-linear decision boundaries.
 * **Key Learning Objective:** Understanding parameter initialization in variational circuits and mitigating barren plateaus.
