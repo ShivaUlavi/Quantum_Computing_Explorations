@@ -23,7 +23,7 @@ I am currently upskilling in open-source quantum ecosystems to understand how qu
 * **Key Learning Objective:** Understanding parameter initialization in variational circuits and mitigating barren plateaus.
 
 ### 2. Quantum Support Vector Machine (QSVM)
-* **File:** 02_quantum_kernel_estimation.ipynb
+* **File:** `02_quantum_kernel_estimation.ipynb`
 * **Frameworks:** PennyLane + Scikit-Learn
 * **Description:** Built a quantum feature map with custom entangling layers, utilizing `qml.adjoint` to calculate the transition amplitudes between data points. Precomputed the Hilbert-space inner products into a Quantum Gram Matrix, which was successfully classified using a classical SVM framework.
 
